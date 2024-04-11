@@ -1,12 +1,3 @@
-/*
-
-TemplateMo 591 villa agency
-
-https://templatemo.com/tm-591-villa-agency
-
-*/
-
-
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -1346,6 +1337,10 @@ Contact Style
     font-weight: 400;
 }
 
+.item.contact-info {
+    margin-bottom: 20px;
+}
+
 .contact-content #contact-form {
     margin-left: 30px;
     border-radius: 10px;
@@ -1414,14 +1409,20 @@ footer {
     margin-top: 150px;
     background-color: #1e1e1e;
     min-height: 100px;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
 }
 
 footer p {
     text-align: center;
-    line-height: 100px;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+    margin: 0;
+    /* Remove default margin */
 }
 
 footer p a {
